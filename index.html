@@ -9,6 +9,31 @@
 <body class="bg-gray-100 flex items-center justify-center h-screen">
     Github collaboration
 
+    <nav class="bg-gray-800 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-white text-2xl font-bold">Logo</a>
+      <div class="hidden md:flex space-x-4">
+        <a href="#" class="text-white hover:text-gray-400">Home</a>
+        <a href="#" class="text-white hover:text-gray-400">About</a>
+        <a href="#" class="text-white hover:text-gray-400">Services</a>
+        <a href="#" class="text-white hover:text-gray-400">Contact</a>
+      </div>
+      <div class="md:hidden">
+        <button id="menu-btn" class="text-white text-2xl focus:outline-none">
+          <span class="menu-open">☰</span>
+          <span class="menu-close hidden">✖</span>
+        </button>
+      </div>
+    </div>
+    <div id="menu" class="hidden md:hidden mt-2">
+      <a href="#" class="block text-white hover:text-gray-400 py-1">Home</a>
+      <a href="#" class="block text-white hover:text-gray-400 py-1">About</a>
+      <a href="#" class="block text-white hover:text-gray-400 py-1">Services</a>
+      <a href="#" class="block text-white hover:text-gray-400 py-1">Contact</a>
+    </div>
+  </nav>
+
+
     <!-- Added a form here -->
     <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 class="text-2xl font-bold mb-6 text-gray-800">Contact Us</h2>
